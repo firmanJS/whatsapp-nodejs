@@ -1,0 +1,9 @@
+/node_modules/
+.env
+
+# managed by open-wa
+open-wa-session.postman_collection.json
+open-wa-session.sw_col.json
+logs
+.node-persist
+test.data.json

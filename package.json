@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-nodejs",
+  "version": "1.0.0",
+  "description": "whatsapp nodejs wa-automate-nodejs",
+  "main": "index.js",
+  "author": "firmanjs",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.15.2",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon --max-old-space-size=2048 --legacy-watch server.js"
+  }
+}
